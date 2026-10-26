@@ -8,20 +8,20 @@
 
 int main() {
 
-//    TConvert::Ttohex();
+    TConvert::Ttohex();
 
 
 //    TBytearray::Tdryrun();
 //    TBytearray::Tbyte_print();
     TBytearray::Tbytearray_print();
 
-//    Tfield::Tmultiply_no_guarantee();
-//    Tfield::Tmultiplication();
-//    Tfield::Tshift();
-//    Tfield::Tset_clear_print_sanity_check();
-//    Tfield::Tset_clear();
-//    Tfield::Tsignbit();
-//    Tfield::Tbracket_notation();
+    Tfield::Tmultiply_no_guarantee();
+    Tfield::Tmultiplication();
+    Tfield::Tshift();
+    Tfield::Tset_clear_print_sanity_check();
+    Tfield::Tset_clear();
+    Tfield::Tsignbit();
+    Tfield::Tbracket_notation();
 
 
 

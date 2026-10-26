@@ -90,11 +90,11 @@ public: // API:
         cout << field<6>::size << endl;
         cout << field<7>::size << endl;
         cout << field<8>::size << endl;
-        cout << Kyte::Convert::tohex((std::size_t)1 << 50) << endl;
+        cout << Kyte::Convert::tohex(static_cast<uint64_t>((uint64_t)1 << 50)) << endl;
         cout << "if all that looks ok, then:" << endl;
-        std::size_t x = -1;
+        uint64_t x = -1;
         cout << Kyte::Convert::tohex(x) << endl;
-        DGCALC::clear_bit<std::size_t>(x, 50);
+        DGCALC::clear_bit<uint64_t>(x, 50);
         cout << Kyte::Convert::tohex(x) << endl;
     }
 

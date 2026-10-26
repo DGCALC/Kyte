@@ -18,7 +18,7 @@ public: // API:
 
     static void Ttohex() {
         for (unsigned char x = 0; x < 128; x = x+8) {
-            cout << x << " = " << Convert::tohex(x) << endl;
+            cout << static_cast<uint32_t>(x) << " = " << Convert::tohex(x) << endl;
         }
     }
 
