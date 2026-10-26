@@ -23,10 +23,6 @@ int main() {
     Tfield::Tbracket_notation();
 
 
-
-    int catch_argc = 0;
-    while (catch_argv[++catch_argc] != nullptr);
-//    Catch::Session().run(catch_argc, catch_argv);
 }
 
 
