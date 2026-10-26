@@ -2,7 +2,6 @@
 // Created by Lucius Traylor Schoenbaum on 3/8/22.
 //
 
-#define CATCH_CONFIG_RUNNER
 
 #include <T.h>
 

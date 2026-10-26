@@ -15,13 +15,8 @@ set(ACCEL "") # "Cuda", "Metal", "" (none)
 set(ACCEL_DEPENDENCIES "") # cuBLAS, cuRAND, ...
 set(ACCEL_INSTALL_DIR "/usr/local") # /usr/local, $ENV{CUDA_HOME}, $ENV{METAL_HOME}, ...
 set(DEPENDENCY_LIB_TYPE "s") # shared (s) or static (a)
-set(DGCALC_DEPENDENCY_TEST "")
-set(DGCALC_DEPENDENCY_SRC ${DGCALC_DEPENDENCY_TEST} "Base")
-set(DGCALC_DEPENDENCY_LIB "")
-set(GROUPS "THIRD")
-set(THIRD_DEPENDENCY_TEST "Catch2")
-set(THIRD_DEPENDENCY_SRC ${THIRD_DEPENDENCY_TEST})
-set(THIRD_DEPENDENCY_LIB "")
+set(GROUPS "DGCALC")
+set(DGCALC_DEPENDENCY_SRC "Base")
 
 
 # set(LOCAL_ROOT "")
